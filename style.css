@@ -8,17 +8,29 @@
 body {
     width: 100%;
     height: 100vh;
-    background-color: azure;
+
 }
 
+#serviços {
+    box-shadow: 5px 5px 0px 5px #000000;
+    position: relative;
+    left: 1050px;
+    text-shadow: none;
+    letter-spacing: 3px;
+}
+
+#serviços:hover {
+    color: blue;
+}
+#sobre{padding-right: 35px;}
 header {
     background-color: rgb(84, 82, 82);
-    height: 150px;
+
     display: flex;
 
     width: 100%;
 
-    height: 150px;
+    height: 130px;
     border-bottom: none;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
 }
@@ -32,26 +44,49 @@ header h1 {
     cursor: pointer;
     font-size: 27px;
     letter-spacing: 2px;
+    transition: all ease-in-out 0.3s;width: 300px;
 }
+header h1:hover{transform: scale(1.4);
+
+    transition: all ease-in-out 0.5s;
+    cursor: pointer;
+    font-size: 25px;
+    width: 300px;
+    position: relative;
+    left: 150px;
+    color: rgb(14, 20, 191);
+    height: 200px;}
 
 main p {
     width: 350px;
     font-size: 23px;
     color: aliceblue;
     position: relative;
-    left: 80px;
-    letter-spacing: 1px;top: 300px;transition: all ease-in-out 0.3s;
-}
-main p:hover{ transform: scale(1.4);
-
+    left: 150px;
+    letter-spacing: 1px;
+    top: 200px;
     transition: all ease-in-out 0.3s;
-    cursor: pointer;}
+}
+
+main p:hover {
+    transform: scale(1.4);
+
+    transition: all ease-in-out 0.5s;
+    cursor: pointer;
+    font-size: 27px;
+    width: 1000px;
+    position: relative;
+    left: 280px;
+    ;
+    height: 300px;
+}
+
 nav ul {
     display: flex;
 }
 
 main {
-   
+
     height: 1000px;
 }
 
@@ -65,7 +100,7 @@ nav ul li {
     letter-spacing: 1px;
     position: relative;
     top: 60px;
-    left: 1000px;
+    left: 900px;
     transition: all ease-in-out 0.3s;
 }
 
@@ -74,7 +109,9 @@ nav ul li:hover {
 
     transition: all ease-in-out 0.3s;
     cursor: pointer;
-    border-radius: 10px;color:white;text-shadow: 40px 12px 3px #000000;
+    border-radius: 10px;
+    color: blue;
+    text-shadow: 40px 12px 3px #000000;
 }
 
 .imgfundo {
@@ -106,19 +143,27 @@ footer .p2 {
     left: 100px;
     cursor: pointer;
     top: 60px;
-    letter-spacing: 2px;
+    letter-spacing: 2px; transition: all ease-in-out 0.3s;;
 }
+
+footer .p2:hover {font-size: 47px; }
+
+
+
+
+
+
 
 footer .p3 {
     color: white;
     font-size: 23px;
     position: relative;
-    left: 600px;
+    left: 800px;
     cursor: pointer;
     top: 30px;
-    letter-spacing: 2px;
+    letter-spacing: 2px; transition: all ease-in-out 0.3s;
 }
-
+footer .p3:hover{font-size: 47px;}
 
 .imgzap {
     width: 80px;
@@ -133,7 +178,7 @@ footer .p3 {
     width: 80px;
     height: 80px;
     position: relative;
-    left: 500px;
+    left: 700px;
     cursor: pointer;
-    top: 50px;
+    top: 60px;
 }
