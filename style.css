@@ -37,21 +37,27 @@ header h1 {
 main p {
     width: 350px;
     font-size: 23px;
-    color: aliceblue;position: relative;left: 10px;letter-spacing: 1px;
+    color: aliceblue;
+    position: relative;
+    left: 80px;
+    letter-spacing: 1px;top: 300px;transition: all ease-in-out 0.3s;
 }
+main p:hover{ transform: scale(1.4);
 
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;}
 nav ul {
     display: flex;
 }
 
 main {
-    background-color: black;
+   
     height: 1000px;
 }
 
 nav ul li {
     padding-left: 43px;
-    color: aliceblue;
+    color: rgb(230, 232, 235);
     list-style: none;
     font-size: 27px;
     letter-spacing: 2px;
@@ -59,24 +65,37 @@ nav ul li {
     letter-spacing: 1px;
     position: relative;
     top: 60px;
-    left: 1000px;transition: all ease-in-out 0.3s
+    left: 1000px;
+    transition: all ease-in-out 0.3s;
 }
-nav ul li:hover{ transform: scale(1.4);
 
-    transition: all ease-in-out 0.3s;cursor: pointer;border-radius: 10px;}
+nav ul li:hover {
+    transform: scale(1.4);
+
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+    border-radius: 10px;color:white;text-shadow: 40px 12px 3px #000000;
+}
+
 .imgfundo {
     width: 500px;
     height: 500px;
-    border-bottom: 5px; transition: all ease-in-out 0.3s;border-radius: 2px;
+    border-bottom: 5px;
+    transition: all ease-in-out 0.3s;
+    border-radius: 2px;
 }
+
 .imgfundo:hover {
     transform: scale(1.1);
 
-    transition: all ease-in-out 0.3s;cursor: pointer;border-radius: 10px;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+    border-radius: 10px;
 }
+
 footer {
     background-color: black;
-    height: 300px;
+    height: 200px;
     width: 100%;
 }
 
@@ -85,7 +104,9 @@ footer .p2 {
     font-size: 23px;
     position: relative;
     left: 100px;
-    cursor: pointer;top:60px;letter-spacing: 2px;
+    cursor: pointer;
+    top: 60px;
+    letter-spacing: 2px;
 }
 
 footer .p3 {
@@ -93,7 +114,9 @@ footer .p3 {
     font-size: 23px;
     position: relative;
     left: 600px;
-    cursor: pointer;top:30px;letter-spacing: 2px;
+    cursor: pointer;
+    top: 30px;
+    letter-spacing: 2px;
 }
 
 
@@ -101,11 +124,16 @@ footer .p3 {
     width: 80px;
     height: 80px;
     position: relative;
-    left: 100px;cursor: pointer;top: 50px;
+    left: 100px;
+    cursor: pointer;
+    top: 50px;
 }
+
 .imgemail {
     width: 80px;
     height: 80px;
     position: relative;
-    left: 500px;cursor: pointer;top: 50px;
+    left: 500px;
+    cursor: pointer;
+    top: 50px;
 }
