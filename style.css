@@ -65,7 +65,7 @@ header h1:hover {
     height: 200px;
 }
 
-
+header a{text-decoration: none;}
 
 nav ul {
     display: flex;
@@ -184,4 +184,27 @@ footer .p3:hover {
     left: 80px;
     cursor: pointer;
     top: 50px;
+    ;
+}
+
+.bmenu {
+    position: relative;
+    top: 30px;
+    left: 30px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    transition: all ease-in-out 0.3s;
+}
+
+.bmenu:hover {
+    cursor: pointer;
+    font-size: 25px;  transform: scale(1.8);
+
+    transition: all ease-in-out 0.5s;
 }
