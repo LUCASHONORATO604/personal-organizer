@@ -28,7 +28,7 @@ body {
 }
 
 header {
-    background-color: rgb(84, 82, 82);
+    background-color:rgb(173, 168, 168);
 
     display: flex;
 
@@ -190,11 +190,11 @@ footer .p3:hover {
 .bmenu {
     position: relative;
     top: 30px;
-    left: 30px;
+    left: 90%;
     width: 100px;
     height: 40px;
     border-radius: 5px;
-    font-size: 22px;
+    font-size: 28px;
     letter-spacing: 2px;
     background-color: transparent;
     color: white;
@@ -207,4 +207,26 @@ footer .p3:hover {
     font-size: 25px;  transform: scale(1.8);
 
     transition: all ease-in-out 0.5s;
+}
+
+.mainpg2 p{color: aliceblue;  
+    width: 350px;
+    font-size: 23px;
+    color: aliceblue;
+    position: relative;
+    left: 150px;
+    letter-spacing: 1px;
+    top: 200px;
+    transition: all ease-in-out 0.3s;
+}
+.mainpg2 p:hover{ transform: scale(1.4);
+
+    transition: all ease-in-out 0.5s;
+    cursor: pointer;
+    font-size: 27px;
+    width: 1000px;
+    position: relative;
+    left: 280px;
+    ;
+    height: 300px;
 }
