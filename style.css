@@ -22,7 +22,11 @@ body {
 #serviços:hover {
     color: blue;
 }
-#sobre{padding-right: 35px;}
+
+#sobre {
+    padding-right: 35px;
+}
+
 header {
     background-color: rgb(84, 82, 82);
 
@@ -44,9 +48,12 @@ header h1 {
     cursor: pointer;
     font-size: 27px;
     letter-spacing: 2px;
-    transition: all ease-in-out 0.3s;width: 300px;
+    transition: all ease-in-out 0.3s;
+    width: 300px;
 }
-header h1:hover{transform: scale(1.4);
+
+header h1:hover {
+    transform: scale(1.4);
 
     transition: all ease-in-out 0.5s;
     cursor: pointer;
@@ -55,31 +62,10 @@ header h1:hover{transform: scale(1.4);
     position: relative;
     left: 150px;
     color: rgb(14, 20, 191);
-    height: 200px;}
-
-main p {
-    width: 350px;
-    font-size: 23px;
-    color: aliceblue;
-    position: relative;
-    left: 150px;
-    letter-spacing: 1px;
-    top: 200px;
-    transition: all ease-in-out 0.3s;
+    height: 200px;
 }
 
-main p:hover {
-    transform: scale(1.4);
 
-    transition: all ease-in-out 0.5s;
-    cursor: pointer;
-    font-size: 27px;
-    width: 1000px;
-    position: relative;
-    left: 280px;
-    ;
-    height: 300px;
-}
 
 nav ul {
     display: flex;
@@ -132,25 +118,27 @@ nav ul li:hover {
 
 footer {
     background-color: black;
-    height: 200px;
+    height: 250px;
     width: 100%;
+    display: flex;
 }
 
 footer .p2 {
     color: white;
     font-size: 23px;
     position: relative;
-    left: 100px;
+    left: 150px;
     cursor: pointer;
     top: 60px;
-    letter-spacing: 2px; transition: all ease-in-out 0.3s;;
+    letter-spacing: 2px;
+    transition: all ease-in-out 0.3s;
+    text-decoration: none;
 }
 
-footer .p2:hover {font-size: 47px; }
-
-
-
-
+footer .p2:hover {
+    font-size: 30px;
+    letter-spacing: 5px;
+}
 
 
 
@@ -158,16 +146,31 @@ footer .p3 {
     color: white;
     font-size: 23px;
     position: relative;
-    left: 800px;
+    left: 150px;
     cursor: pointer;
-    top: 30px;
-    letter-spacing: 2px; transition: all ease-in-out 0.3s;
+    top: 60px;
+    letter-spacing: 2px;
+    transition: all ease-in-out 0.3s;
 }
-footer .p3:hover{font-size: 47px;}
+
+footer .p3:hover {
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.dzap {
+    width: 500px;
+
+}
+
+.demail {
+    width: 500px;
+
+}
 
 .imgzap {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     position: relative;
     left: 100px;
     cursor: pointer;
@@ -175,10 +178,10 @@ footer .p3:hover{font-size: 47px;}
 }
 
 .imgemail {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     position: relative;
-    left: 700px;
+    left: 80px;
     cursor: pointer;
-    top: 60px;
+    top: 50px;
 }
