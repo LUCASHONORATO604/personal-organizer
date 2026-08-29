@@ -5,21 +5,27 @@
     font-family: "Montserrat", sans-serif;
 }
 
+html,
 body {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 
 }
+
 /* por enquanto as opçoes contato e serviços estao suspensas     */
-#serviços  {
+#serviços {
     box-shadow: 5px 5px 0px 5px #000000;
     position: relative;
     left: 1040px;
     text-shadow: none;
-    letter-spacing: 3px;border-radius: 3px;
+    letter-spacing: 3px;
+    border-radius: 3px;
 }
 
-#contato{display: none;}
+#contato {
+    display: none;
+}
 
 #serviços:hover {
     color: blue;
@@ -30,13 +36,13 @@ body {
 }
 
 header {
-    background-color:transparent;
+    background-color: transparent;
 
     display: flex;
 
     width: 100%;
 
-height: 1px
+    height: 1px
 }
 
 
@@ -62,8 +68,15 @@ header h1:hover {
     position: relative;
     left: 150px;
     color: rgb(14, 20, 191);
-    height: 200px;
+    height: 80px;
+    backdrop-filter: blur(10px);
+    /* Desfoca o que está atrás */
+    -webkit-backdrop-filter: blur(10px);
+    /* Suporte para Safari */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
 }
+
 
 header a {
     text-decoration: none;
@@ -138,6 +151,7 @@ footer .p2 {
     letter-spacing: 2px;
     transition: all ease-in-out 0.3s;
     text-decoration: none;
+    
 }
 
 footer .p2:hover {
@@ -194,10 +208,11 @@ footer .p3:hover {
 
 }
 
-.demail {
+ .demail {
     width: 500px;
 
 }
+
 .dinsta {
     width: 500px;
 
@@ -308,7 +323,7 @@ footer .p3:hover {
 }
 
 .footersobre {
-    background-color:black;
+    background-color: black;
     width: 100%;
     height: 1px;
 }
