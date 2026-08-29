@@ -16,7 +16,7 @@ body {
     position: relative;
     left: 1040px;
     text-shadow: none;
-    letter-spacing: 3px;border-radius: 3px;display: none;
+    letter-spacing: 3px;border-radius: 3px;
 }
 
 #contato{display: none;}
@@ -158,8 +158,33 @@ footer .p3 {
     transition: all ease-in-out 0.3s;
 }
 
-footer .p3:hover {
+/* texto insta */
+
+footer .p4 {
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left: 140px;
+    cursor: pointer;
+    top: 40px;
+    letter-spacing: 2px;
+    transition: all ease-in-out 0.3s;
+}
+
+
+
+
+footer .p4:hover {
     font-size: 30px;
+    letter-spacing: 5px;
+}
+
+
+
+
+
+footer .p3:hover {
+    font-size: 25px;
     letter-spacing: 5px;
 }
 
@@ -170,6 +195,10 @@ footer .p3:hover {
 }
 
 .demail {
+    width: 500px;
+
+}
+.dinsta {
     width: 500px;
 
 }
@@ -192,6 +221,21 @@ footer .p3:hover {
     top: 30px;
     ;
 }
+
+.imginsta {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    left: 80px;
+    cursor: pointer;
+    top: 30px;
+    ;
+}
+
+
+
+
+
 
 /*          ABAIXO É A PAGINA SOBRE                ABAIXO É A PAGINA SOBRE                                            */
 .bmenu {
@@ -264,7 +308,7 @@ footer .p3:hover {
 }
 
 .footersobre {
-    background-color: black;
+    background-color:black;
     width: 100%;
-    height: 100px;
+    height: 1px;
 }
