@@ -23,6 +23,14 @@ body {
     border-radius: 3px;
 }
 
+#serviços:hover {
+    box-shadow: 5px 5px 0px 5px #030783;
+    backdrop-filter: blur(10px);
+    padding-right: 5px;
+    /* Desfoca o que está atrás */
+    -webkit-backdrop-filter: blur(10px);
+}
+
 #contato {
     display: none;
 }
@@ -33,6 +41,19 @@ body {
 
 #sobre {
     padding-right: 35px;
+    backdrop-filter: blur(10px);
+    /* Desfoca o que está atrás */
+    -webkit-backdrop-filter: blur(10px);
+    /* Suporte para Safari */
+    border: none;
+    font-size: 28px;
+    letter-spacing: 4px;
+}
+
+#sobre:hover {
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 30px;
 }
 
 header {
@@ -59,7 +80,7 @@ header h1 {
 }
 
 header h1:hover {
-    transform: scale(1.4);
+    transform: scale(1.6);
 
     transition: all ease-in-out 0.5s;
     cursor: pointer;
@@ -73,7 +94,7 @@ header h1:hover {
     /* Desfoca o que está atrás */
     -webkit-backdrop-filter: blur(10px);
     /* Suporte para Safari */
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: none;
     border-radius: 5px;
 }
 
@@ -151,7 +172,7 @@ footer .p2 {
     letter-spacing: 2px;
     transition: all ease-in-out 0.3s;
     text-decoration: none;
-    
+
 }
 
 footer .p2:hover {
@@ -208,7 +229,7 @@ footer .p3:hover {
 
 }
 
- .demail {
+.demail {
     width: 500px;
 
 }
@@ -266,6 +287,7 @@ footer .p3:hover {
     color: white;
     border: none;
     transition: all ease-in-out 0.3s;
+
 }
 
 .bmenu:hover {
@@ -274,6 +296,12 @@ footer .p3:hover {
     transform: scale(1.8);
 
     transition: all ease-in-out 0.5s;
+    backdrop-filter: blur(10px);
+    /* Desfoca o que está atrás */
+    -webkit-backdrop-filter: blur(10px);
+    letter-spacing: 4px;
+    /* Suporte para Safari */
+    border: none;
 }
 
 .mainpg2 {
@@ -325,5 +353,15 @@ footer .p3:hover {
 .footersobre {
     background-color: black;
     width: 100%;
-    height: 1px;
+    height: 50px;
+}
+
+
+.footersobre .psobre {
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    font-size: 25px;
+    background-color: black;height: 10px;
 }
