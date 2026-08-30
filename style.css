@@ -13,6 +13,12 @@ body {
 
 }
 
+body {
+    background: #b5abab url('./imagem/backimg.png') no-repeat center center / cover fixed;
+}
+
+
+
 /* por enquanto as opçoes contato e serviços estao suspensas     */
 #serviços {
     box-shadow: 5px 5px 0px 5px #000000;
