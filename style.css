@@ -607,12 +607,15 @@ footer .p3:hover {
         bottom: 500px;
     }
 
-    .mainppg2 {
-        width: 100px;
-        height: 100px;
-        padding-right: 150px;
-        word-break: break-word;
-    }
+    .mainppg2 .ppg2{
+         width: 100%; /* Ocupa a largura total disponível da tela */
+    max-width: 400px; /* Evita que fique gigante em telas maiores (opcional) */
+    height: auto; /* Permite que a altura cresça se o texto for longo */
+    padding: 15px; /* Um espaçamento interno seguro para as laterais */
+    word-break: break-word; /* Mantém a quebra de texto que você já colocou */
+    box-sizing: border-box; /* Garante que o padding não estoure a tela */
+
+}
 
     /* CNPJ */
     .psobre {
@@ -620,14 +623,11 @@ footer .p3:hover {
     }
 
 
-    .ppg2 {
-        width: 300px;
-        height: 300px;
-    }
+    
 
     .spansobre1 {
         height: 100px;
-        font-size: 30px;
+        font-size: 30px;text-align: left;padding-left: 20px;
     }
 
 
