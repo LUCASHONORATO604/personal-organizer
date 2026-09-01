@@ -78,9 +78,8 @@ header h1 {
     cursor: pointer;
     font-size: 27px;
     letter-spacing: 2px;
-    transition: all ease-in-out 0.3s;
-    width: 300px;
-}
+    transition: all ease-in-out 0.3s;text-shadow: 2px 1px 0px #000000;
+    width: 300px;}
 
 header h1:hover {
     transform: scale(1.6);
@@ -174,9 +173,10 @@ footer .p2 {
     top: 30px;
     letter-spacing: 2px;
     transition: all ease-in-out 0.3s;
-    text-decoration: none;
-
+    text-decoration: none;text-shadow: 2px 1px 0px #000000;
 }
+
+
 
 footer .p2:hover {
     font-size: 30px;
@@ -193,7 +193,7 @@ footer .p3 {
     cursor: pointer;
     top: 40px;
     letter-spacing: 2px;
-    transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;text-shadow: 2px 1px 0px #000000;
 }
 
 /* texto insta */
@@ -206,7 +206,7 @@ footer .p4 {
     cursor: pointer;
     top: 40px;
     letter-spacing: 2px;
-    transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;text-shadow: 2px 1px 0px #000000;
 }
 
 
@@ -291,7 +291,7 @@ footer .p3:hover {
     background-color: transparent;
     color: white;
     border: none;
-    transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;text-shadow: 2px 1px 0px #000000;
 
 }
 
@@ -330,7 +330,7 @@ footer .p3:hover {
     -webkit-backdrop-filter: blur(10px);
     /* Suporte para Safari */
     border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 5px;
+    border-radius: 5px;text-shadow: 2px 1px 0px #000000;
 }
 
 
@@ -355,7 +355,7 @@ footer .p3:hover {
 }
 
 .footersobre {
-    background-color:transparent
+    background-color:transparent;
     width: 100%;
     height: 80px;
 }
@@ -369,7 +369,7 @@ footer .p3:hover {
     font-size: 30px;
     
     cursor: pointer;
-    height: 10px;
+    height: 10px;text-shadow: 2px 1px 0px #000000;
 }
 /*pagina serviços*/
 
