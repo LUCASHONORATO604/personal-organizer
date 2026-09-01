@@ -5,18 +5,17 @@
     font-family: "Montserrat", sans-serif;
 }
 
-html,
-body {
+html,body {
     width: 100vw;
     height: 100vh;
-
+    
 }
 
 
 
 
 
-/* por enquanto a opção contato esta suspenso    */
+/* por enquanto as opçoes contato e serviços estao suspensas     */
 #serviços {
     box-shadow: 5px 5px 0px 5px #000000;
     position: relative;
@@ -367,90 +366,16 @@ footer .p3:hover {
     top: 25px;
     left: 20px;
     font-size: 25px;
-    background-color: black;
-    cursor: pointer;
+    background-color: black;cursor: pointer;
     height: 10px;
 }
-/*pagina serviços*/
 
-.bmenuserviços {
-    position: relative;
-    top: 80px;
-    left: 90%;
-    width: 100px;
-    height: 40px;
-    border-radius: 5px;
-    font-size: 40px;
-    letter-spacing: 2px;
-    background-color: transparent;
-    color: white;
-    border: none;
-    transition: all ease-in-out 0.3s;
-
-}
-
-.bmenuserviços:hover {
-    cursor: pointer;
-
-    transform: scale(1.8);
-
-    transition: all ease-in-out 0.5s;
-    backdrop-filter: blur(10px);
-    /* Desfoca o que está atrás */
-    -webkit-backdrop-filter: blur(10px);
-    letter-spacing: 2px;
-    /* Suporte para Safari */
-    width: 120px;
-    border: none;
-    font-size: 42px;
-}
-
-
-
-
-
-
-
-
-
-/*versao notbook*/
-@media screen and (max-width:1366px) {
-    * {
-        box-sizing: border-box;
-        margin: 0%;
-        padding: 0%;
-        font-family: "Montserrat", sans-serif;
-    }
-html,
-body {
-    width: 100vw;
-    height: 100vh;overflow-x: hidden;
-
-}
-
-#sobre{
-
-    left: 500px;
-}
-
-
-#serviços {
-   
-    left: 600px;
-}
-
-
-
-
-
-
-}
 
 
 /*  VERSAO MOBILE ABAIXO */
 
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:487px) {
     * {
         box-sizing: border-box;
         margin: 0%;
@@ -464,7 +389,8 @@ body {
 
     html,
     body {
-
+        overflow-: hidden;
+        overflow-: hidden;
         min-height: 100vh;
         width: 100%;
 
@@ -598,7 +524,7 @@ body {
         width: 32px;
         height: auto;
     }
-/* texto do whatsapp */
+
     footer .p2 {
         font-size: 25px;
         position: relative;
@@ -606,7 +532,7 @@ body {
         top: 1px;
         padding-right: 50px;
     }
-/* texto do email */
+
     footer .p3 {
         font-size: 25px;
         position: relative;
@@ -614,15 +540,21 @@ body {
         padding-right: 50px;
         padding-bottom: 20px;
     }
-/* texto do instagram */
+
     footer .p4 {
         font-size: 25px;
         position: relative;
         left: 10px;
-        padding-right: 50px;letter-spacing: 7px;
+        padding-right: 50px;
     }
 
-  
+    .imgzap {
+        height: 30px;
+        position: relative;
+        left: 190px;
+        top: 40px;
+        width: 30px;
+    }
 
     .dzap {
         margin-bottom: 10px;
@@ -638,25 +570,10 @@ body {
         margin-bottom: 20px;
         height: 10px;
     }
-  .imgzap {
-        height: 30px;
-        position: relative;
-        left: 200px;
-        top: 40px;
-        width: 30px;
-    }
 
 
-   
-    .imgemail {
-        height: 30px;
-        width: 30px;
-        position: relative;
-        top: 75px;
-        left: 200px;
-    }
 
- .imginsta {
+    .imginsta {
         height: 30px;
         position: relative;
         top: 80px;
@@ -665,6 +582,13 @@ body {
 
     }
 
+    .imgemail {
+        height: 30px;
+        width: 30px;
+        position: relative;
+        top: 60px;
+        left: 200px;
+    }
 
     /*  pagina sobre */
     .dbmenu {
@@ -674,28 +598,21 @@ body {
     }
 
     .dbmenu .bmenu {
-        font-size: 50px;
+        font-size:50px;
         position: relative;
         left: 10px;
-        bottom: 500px;
-        letter-spacing: 3px;
+        bottom: 500px;letter-spacing: 3px;
     }
 
-    .mainppg2 .ppg2 {
-        width: 100%;
-        /* Ocupa a largura total disponível da tela */
-        max-width: 400px;
-        /* Evita que fique gigante em telas maiores (opcional) */
-        height: auto;
-        /* Permite que a altura cresça se o texto for longo */
-        padding: 15px;
-        /* Um espaçamento interno seguro para as laterais */
-        word-break: break-word;
-        /* Mantém a quebra de texto que você já colocou */
-        box-sizing: border-box;
-        /* Garante que o padding não estoure a tela */
+    .mainppg2 .ppg2{
+         width: 100%; /* Ocupa a largura total disponível da tela */
+    max-width: 400px; /* Evita que fique gigante em telas maiores (opcional) */
+    height: auto; /* Permite que a altura cresça se o texto for longo */
+    padding: 15px; /* Um espaçamento interno seguro para as laterais */
+    word-break: break-word; /* Mantém a quebra de texto que você já colocou */
+    box-sizing: border-box; /* Garante que o padding não estoure a tela */
 
-    }
+}
 
     /* CNPJ */
     .psobre {
@@ -703,13 +620,11 @@ body {
     }
 
 
-
+    
 
     .spansobre1 {
         height: 100px;
-        font-size: 30px;
-        text-align: left;
-        padding-left: 20px;
+        font-size: 30px;text-align: left;padding-left: 20px;
     }
 
 
