@@ -19,7 +19,7 @@ html,body {
 #serviços {
     box-shadow: 5px 5px 0px 5px #000000;
     position: relative;
-    left: 1040px;
+    left: 40px;
     text-shadow: none;
     letter-spacing: 3px;
     border-radius: 3px;
@@ -49,7 +49,7 @@ html,body {
     /* Suporte para Safari */
     border: none;
     font-size: 28px;
-    letter-spacing: 4px;
+    letter-spacing: 4px;left:0px;
 }
 
 #sobre:hover {
@@ -73,7 +73,7 @@ header h1 {
     color: white;
     position: relative;
     top: 60px;
-    left: 50px;
+    left: 1050px;
     cursor: pointer;
     font-size: 27px;
     letter-spacing: 2px;
@@ -82,27 +82,13 @@ header h1 {
 }
 
 header h1:hover {
-    transform: scale(1.6);
-
-    transition: all ease-in-out 0.5s;
-    cursor: pointer;
-    font-size: 25px;
-    width: 300px;
-    position: relative;
-    left: 150px;
-    color: rgb(14, 20, 191);
-    height: 80px;
-    backdrop-filter: blur(10px);
-    /* Desfoca o que está atrás */
-    -webkit-backdrop-filter: blur(10px);
-    /* Suporte para Safari */
-    border: none;
-    border-radius: 5px;
+   color: #030783;font-size:28px
+    
 }
 
 
 header a {
-    text-decoration: none;
+    text-decoration: none;position: relative;right: 250px;
 }
 
 nav ul {
