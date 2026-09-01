@@ -5,10 +5,11 @@
     font-family: "Montserrat", sans-serif;
 }
 
-html,body {
+html,
+body {
     width: 100vw;
     height: 100vh;
-    
+
 }
 
 
@@ -366,7 +367,8 @@ footer .p3:hover {
     top: 25px;
     left: 20px;
     font-size: 25px;
-    background-color: black;cursor: pointer;
+    background-color: black;
+    cursor: pointer;
     height: 10px;
 }
 
@@ -389,8 +391,7 @@ footer .p3:hover {
 
     html,
     body {
-        overflow-: hidden;
-        overflow-: hidden;
+
         min-height: 100vh;
         width: 100%;
 
@@ -598,21 +599,28 @@ footer .p3:hover {
     }
 
     .dbmenu .bmenu {
-        font-size:50px;
+        font-size: 50px;
         position: relative;
         left: 10px;
-        bottom: 500px;letter-spacing: 3px;
+        bottom: 500px;
+        letter-spacing: 3px;
     }
 
-    .mainppg2 .ppg2{
-         width: 100%; /* Ocupa a largura total disponível da tela */
-    max-width: 400px; /* Evita que fique gigante em telas maiores (opcional) */
-    height: auto; /* Permite que a altura cresça se o texto for longo */
-    padding: 15px; /* Um espaçamento interno seguro para as laterais */
-    word-break: break-word; /* Mantém a quebra de texto que você já colocou */
-    box-sizing: border-box; /* Garante que o padding não estoure a tela */
+    .mainppg2 .ppg2 {
+        width: 100%;
+        /* Ocupa a largura total disponível da tela */
+        max-width: 400px;
+        /* Evita que fique gigante em telas maiores (opcional) */
+        height: auto;
+        /* Permite que a altura cresça se o texto for longo */
+        padding: 15px;
+        /* Um espaçamento interno seguro para as laterais */
+        word-break: break-word;
+        /* Mantém a quebra de texto que você já colocou */
+        box-sizing: border-box;
+        /* Garante que o padding não estoure a tela */
 
-}
+    }
 
     /* CNPJ */
     .psobre {
@@ -620,11 +628,13 @@ footer .p3:hover {
     }
 
 
-    
+
 
     .spansobre1 {
         height: 100px;
-        font-size: 30px;text-align: left;padding-left: 20px;
+        font-size: 30px;
+        text-align: left;
+        padding-left: 20px;
     }
 
 
