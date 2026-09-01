@@ -371,6 +371,48 @@ footer .p3:hover {
     cursor: pointer;
     height: 10px;
 }
+/*pagina serviços*/
+
+.bmenuserviços {
+    position: relative;
+    top: 80px;
+    left: 90%;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    transition: all ease-in-out 0.3s;
+
+}
+
+.bmenuserviços:hover {
+    cursor: pointer;
+
+    transform: scale(1.8);
+
+    transition: all ease-in-out 0.5s;
+    backdrop-filter: blur(10px);
+    /* Desfoca o que está atrás */
+    -webkit-backdrop-filter: blur(10px);
+    letter-spacing: 2px;
+    /* Suporte para Safari */
+    width: 120px;
+    border: none;
+    font-size: 42px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
