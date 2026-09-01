@@ -525,7 +525,7 @@ footer .p3:hover {
         width: 32px;
         height: auto;
     }
-
+/* texto do whatsapp */
     footer .p2 {
         font-size: 25px;
         position: relative;
@@ -533,7 +533,7 @@ footer .p3:hover {
         top: 1px;
         padding-right: 50px;
     }
-
+/* texto do email */
     footer .p3 {
         font-size: 25px;
         position: relative;
@@ -541,21 +541,15 @@ footer .p3:hover {
         padding-right: 50px;
         padding-bottom: 20px;
     }
-
+/* texto do instagram */
     footer .p4 {
         font-size: 25px;
         position: relative;
         left: 10px;
-        padding-right: 50px;
+        padding-right: 50px;letter-spacing: 7px;
     }
 
-    .imgzap {
-        height: 30px;
-        position: relative;
-        left: 190px;
-        top: 40px;
-        width: 30px;
-    }
+  
 
     .dzap {
         margin-bottom: 10px;
@@ -571,10 +565,25 @@ footer .p3:hover {
         margin-bottom: 20px;
         height: 10px;
     }
+  .imgzap {
+        height: 30px;
+        position: relative;
+        left: 200px;
+        top: 40px;
+        width: 30px;
+    }
 
 
+   
+    .imgemail {
+        height: 30px;
+        width: 30px;
+        position: relative;
+        top: 75px;
+        left: 200px;
+    }
 
-    .imginsta {
+ .imginsta {
         height: 30px;
         position: relative;
         top: 80px;
@@ -583,13 +592,6 @@ footer .p3:hover {
 
     }
 
-    .imgemail {
-        height: 30px;
-        width: 30px;
-        position: relative;
-        top: 60px;
-        left: 200px;
-    }
 
     /*  pagina sobre */
     .dbmenu {
