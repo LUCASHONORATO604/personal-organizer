@@ -5,14 +5,12 @@
     font-family: "Montserrat", sans-serif;
 }
 
-html,
-body {
+html,body {
     width: 100vw;
     height: 100vh;
-    background-color: #000000;
-    background: #b5abab url('./imagem/backimg.png') no-repeat center center / cover fixed;
-
+    
 }
+
 
 
 
@@ -172,7 +170,7 @@ footer .p2 {
     position: relative;
     left: 150px;
     cursor: pointer;
-    top: 40px;
+    top: 30px;
     letter-spacing: 2px;
     transition: all ease-in-out 0.3s;
     text-decoration: none;
@@ -278,6 +276,8 @@ footer .p3:hover {
 
 
 /*          ABAIXO É A PAGINA SOBRE                ABAIXO É A PAGINA SOBRE                                            */
+
+
 .bmenu {
     position: relative;
     top: 80px;
@@ -305,14 +305,11 @@ footer .p3:hover {
     -webkit-backdrop-filter: blur(10px);
     letter-spacing: 2px;
     /* Suporte para Safari */
-    width: 150px;
+    width: 120px;
     border: none;
     font-size: 42px;
 }
 
-.mainpg2 {
-    height: 100vh;
-}
 
 .mainpg2 .ppg2 {
     color: rgb(251, 247, 247);
@@ -366,10 +363,10 @@ footer .p3:hover {
 .footersobre .psobre {
     color: white;
     position: relative;
-    top: 10px;
+    top: 25px;
     left: 20px;
     font-size: 25px;
-    background-color: black;
+    background-color: black;cursor: pointer;
     height: 10px;
 }
 
