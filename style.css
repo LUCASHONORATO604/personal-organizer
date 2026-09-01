@@ -16,7 +16,7 @@ body {
 
 
 
-/* por enquanto as opçoes contato e serviços estao suspensas     */
+/* por enquanto a opção contato esta suspenso    */
 #serviços {
     box-shadow: 5px 5px 0px 5px #000000;
     position: relative;
@@ -413,7 +413,38 @@ footer .p3:hover {
 
 
 
+/*versao notbook*/
+@media screen and (max-width:1366px) {
+    * {
+        box-sizing: border-box;
+        margin: 0%;
+        padding: 0%;
+        font-family: "Montserrat", sans-serif;
+    }
+html,
+body {
+    width: 100vw;
+    height: 100vh;overflow-x: hidden;
 
+}
+
+#sobre{
+
+    left: 500px;
+}
+
+
+#serviços {
+   
+    left: 600px;
+}
+
+
+
+
+
+
+}
 
 
 /*  VERSAO MOBILE ABAIXO */
