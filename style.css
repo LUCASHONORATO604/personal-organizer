@@ -314,12 +314,12 @@ footer .p3:hover {
 
 .mainpg2 .ppg2 {
     color: rgb(251, 247, 247);
-    width: 550px;
-    height: 530px;
+    width: 500px;
+    height: 610px;
     padding: 10px 0px 0px 10px;
     font-size: 23px;
     position: relative;
-    left: 75px;
+    left: 45px;
     letter-spacing: 3px;
     top: 60px;
     transition: all ease-in-out 0.3s;
@@ -434,7 +434,7 @@ footer .p3:hover {
     html,
     body {
 
-        min-height: 100vh;
+       
         width: 100%;
 
         /* Ativa o Flexbox no corpo inteiro */
@@ -649,6 +649,8 @@ footer .p3:hover {
         bottom: 500px;
         letter-spacing: 3px;
     }
+.mainpg2{position: relative;right:62px;}
+
 
     .mainppg2 .ppg2 {
         width: 100%;
@@ -668,7 +670,7 @@ footer .p3:hover {
 
     /* CNPJ */
     .psobre {
-        margin-bottom: 80px;
+        margin-bottom: 80px;left:30px;
     }
 
 
