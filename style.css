@@ -160,9 +160,9 @@ footer {
 /* texto zap */
 footer .p2 {
     color: white;
-    font-size: 25px;
+    font-size: 35px;
     position: relative;
-    left: 150px;
+    left: 140px;
     cursor: pointer;
     top: 30px;
     letter-spacing: 2px;
@@ -174,19 +174,18 @@ footer .p2 {
 
 
 footer .p2:hover {
-    font-size: 30px;
-    letter-spacing: 5px;
+   color: #040bde;
 }
 
 
 /* Email  texto */
 footer .p3 {
     color: white;
-    font-size: 25px;
+    font-size: 35px;
     position: relative;
-    left: 140px;
+    left: 125px;
     cursor: pointer;
-    top: 40px;
+    top: 30px;
     letter-spacing: 2px;
     transition: all ease-in-out 0.3s;
     text-shadow: 2px 1px 0px #000000;
@@ -196,11 +195,11 @@ footer .p3 {
 
 footer .p4 {
     color: white;
-    font-size: 25px;
+    font-size: 35px;
     position: relative;
-    left: 140px;
+    left: 170px;
     cursor: pointer;
-    top: 40px;
+    top: 30px;
     letter-spacing: 2px;
     transition: all ease-in-out 0.3s;
     text-shadow: 2px 1px 0px #000000;
@@ -210,8 +209,7 @@ footer .p4 {
 
 
 footer .p4:hover {
-    font-size: 30px;
-    letter-spacing: 5px;
+     color: #040bde;
 }
 
 
@@ -219,8 +217,7 @@ footer .p4:hover {
 
 
 footer .p3:hover {
-    font-size: 25px;
-    letter-spacing: 5px;
+    color: #040bde;
 }
 
 /*zap e email acima*/
@@ -235,7 +232,7 @@ footer .p3:hover {
 }
 
 .dinsta {
-    width: 500px;
+    width: 500px; margin-left: 50px;
 
 }
 
@@ -262,7 +259,7 @@ footer .p3:hover {
     width: 70px;
     height: 70px;
     position: relative;
-    left: 80px;
+    left: 120px;
     cursor: pointer;
     top: 30px;
     ;
@@ -306,7 +303,7 @@ footer .p3:hover {
     /* Suporte para Safari */
     width: 120px;
     border: none;
-    font-size: 42px;
+    font-size: 42px;box-shadow: 5px 5px 6px 6px #000000;;
 }
 
 
@@ -350,7 +347,7 @@ footer .p3:hover {
     backdrop-filter: blur(50px);
     /* Desfoca o que está atrás */
     -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(121, 119, 119, 0.3);
+    border: 1px solid rgba(121, 119, 119, 0.3);box-shadow: 5px 5px 6px 6px #000000;
 }
 
 .footersobre {
@@ -363,9 +360,9 @@ footer .p3:hover {
 .footersobre .psobre {
     color: white;
     position: relative;
-    top: 25px;
+    top: 45px;
     left: 20px;
-    font-size: 30px;
+    font-size: 35px;
 
     cursor: pointer;
     height: 10px;
@@ -533,8 +530,8 @@ footer .p3:hover {
 
 
     /* Destaque visual específico do botão de serviços */
-      #serviços {
-    box-shadow: 9px 10px 0px -1px rgba(0,0,0,1);
+    #serviços {
+        box-shadow: 9px 10px 0px -1px rgba(0, 0, 0, 1);
         border: 1px solid #2a2929;
         letter-spacing: 5px;
         border-radius: 3px;
@@ -542,8 +539,8 @@ footer .p3:hover {
         font-size: 30px;
         height: 50px;
         width: 300px;
-        text-align: center;padding:5px 0px 0px 0px
-
+        text-align: center;
+        padding: 5px 0px 0px 0px
     }
 
     #sobre {
@@ -553,7 +550,9 @@ footer .p3:hover {
         height: 50px;
         text-align: center;
         font-size: 30px;
-        border-radius: 5px;padding:5px 0px 0px 0px;letter-spacing: 10px;
+        border-radius: 5px;
+        padding: 5px 0px 0px 0px;
+        letter-spacing: 10px;
     }
 
 
@@ -604,7 +603,7 @@ footer .p3:hover {
     footer .p2 {
         font-size: 25px;
         position: relative;
-        left: 10px;
+        left: 5px;
         top: 1px;
         padding-right: 50px;
     }
@@ -613,7 +612,7 @@ footer .p3:hover {
     footer .p3 {
         font-size: 25px;
         position: relative;
-        left: 10px;
+        left: 5px;
         padding-right: 50px;
         padding-bottom: 20px;
     }
@@ -622,9 +621,9 @@ footer .p3:hover {
     footer .p4 {
         font-size: 25px;
         position: relative;
-        left: 10px;
+        left: 5px;
         padding-right: 50px;
-        letter-spacing: 7px;
+        letter-spacing: 4px;
     }
 
 
@@ -645,29 +644,31 @@ footer .p3:hover {
     }
 
     .imgzap {
-        height: 30px;
+        height: 40px;
+        width: 40px;
         position: relative;
-        left: 200px;
+        left: 180px;
         top: 40px;
-        width: 30px;
+
     }
 
 
 
     .imgemail {
-        height: 30px;
-        width: 30px;
+        height: 50px;
+        width: 40px;
         position: relative;
         top: 75px;
-        left: 200px;
+        left: 185px;
     }
 
     .imginsta {
-        height: 30px;
+        height: 40px;
+        width: 40px;
         position: relative;
         top: 80px;
-        left: 200px;
-        width: 30px;
+        left: 185px;
+
 
     }
 
@@ -730,6 +731,7 @@ footer .p3:hover {
 
 
 }
+
 /*
 
         <div class="dzap">
