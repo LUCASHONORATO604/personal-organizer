@@ -373,16 +373,17 @@ footer .p3:hover {
 }
 
 /*pagina serviços*/
-  .headerserviços {
+.headerserviços {
     background-color: transparent;
 
     display: flex;
 
     width: 100%;
 
-    height: 300px;border: 1px solid red;
+    height: 300px;
+    border: 1px solid red;
 
-  }
+}
 
 
 #bmenuserviços {
@@ -396,7 +397,8 @@ footer .p3:hover {
     letter-spacing: 2px;
     background-color: transparent;
     color: white;
-    border: none;list-style: none;
+    border: none;
+    list-style: none;
     transition: all ease-in-out 0.3s;
 
 }
@@ -528,29 +530,30 @@ footer .p3:hover {
     }
 
     /* Configuração idêntica de tamanho para as tags do menu */
-    #sobre,
-    #contato,
-    #serviços {
-        font-size: 18px;
-        padding: 10px 20px;
-        width: 220px;
-        /* Largura idêntica para simetria visual */
-        text-align: center;
-    }
+
 
     /* Destaque visual específico do botão de serviços */
     #serviços {
-        box-shadow: 5px 5px 0px 0px #000000;
-        border: 2px solid #000000;
-        letter-spacing: 2px;
+    box-shadow: 9px 10px 0px -1px rgba(0,0,0,1);
+        border: 1px solid #000000;
+        letter-spacing: 5px;
         border-radius: 3px;
         margin-top: 50px;
-        margin-right: 90px;
+        font-size: 30px;
+        height: 50px;
+        width: 300px;
+        text-align: center;padding:5px 0px 0px 0px
+
     }
 
     #sobre {
         margin-left: 200px;
         margin-top: 300px;
+        width: 300px;
+        height: 50px;
+        text-align: center;
+        font-size: 30px;
+        border-radius: 5px;padding:5px 0px 0px 0px;letter-spacing: 10px;
     }
 
 
@@ -727,3 +730,14 @@ footer .p3:hover {
 
 
 }
+/*
+
+        <div class="dzap">
+            <a href="https://web.whatsapp.com/send?phone=(13) 99736-2054" target="_blank"><img
+                    src="./imagem/whatsapp.png" alt="fale conosco pelo whatsapp" class="imgzap"></a>
+            <p class="p2">contato:(13) 99736-2054</p>
+
+
+
+        </div> 
+        */
