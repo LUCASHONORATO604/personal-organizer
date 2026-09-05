@@ -533,9 +533,9 @@ footer .p3:hover {
 
 
     /* Destaque visual específico do botão de serviços */
-    #serviços {
+      #serviços {
     box-shadow: 9px 10px 0px -1px rgba(0,0,0,1);
-        border: 1px solid #000000;
+        border: 1px solid #2a2929;
         letter-spacing: 5px;
         border-radius: 3px;
         margin-top: 50px;
