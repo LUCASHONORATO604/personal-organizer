@@ -828,8 +828,8 @@ footer .p3:hover {
     }
 
     .pserviços {
-        font-size: 20px;
-        width: 300px;
+        font-size: 23px;
+       height: 600px; width: 300px;
         margin-right: 50px;
     }
 
@@ -865,7 +865,7 @@ footer .p3:hover {
         width: 40px;
     }
 
-
+#bmenuserviços{color: #030783;position: relative;left: 5%;top: 1800%;}
 
 
 
