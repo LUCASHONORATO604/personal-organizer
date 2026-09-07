@@ -85,7 +85,7 @@ header h1 {
 }
 
 header h1:hover {
-    color: rgb(14, 20, 191);
+    color: rgb(24, 62, 252);
     backdrop-filter: blur(10px);
     /* Desfoca o que está atrás */
     -webkit-backdrop-filter: blur(10px);
@@ -174,7 +174,7 @@ footer .p2 {
 
 
 footer .p2:hover {
-   color: #040bde;
+    color: #040bde;
 }
 
 
@@ -209,7 +209,7 @@ footer .p4 {
 
 
 footer .p4:hover {
-     color: #040bde;
+    color: #040bde;
 }
 
 
@@ -232,7 +232,8 @@ footer .p3:hover {
 }
 
 .dinsta {
-    width: 500px; margin-left: 50px;
+    width: 500px;
+    margin-left: 50px;
 
 }
 
@@ -303,7 +304,9 @@ footer .p3:hover {
     /* Suporte para Safari */
     width: 120px;
     border: none;
-    font-size: 42px;box-shadow: 5px 5px 6px 6px #000000;;
+    font-size: 42px;
+    box-shadow: 5px 5px 6px 6px #000000;
+    ;
 }
 
 
@@ -347,7 +350,8 @@ footer .p3:hover {
     backdrop-filter: blur(50px);
     /* Desfoca o que está atrás */
     -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(121, 119, 119, 0.3);box-shadow: 5px 5px 6px 6px #000000;
+    border: 1px solid rgba(121, 119, 119, 0.3);
+    box-shadow: 5px 5px 6px 6px #000000;
 }
 
 .footersobre {
@@ -378,19 +382,30 @@ footer .p3:hover {
     width: 100%;
 
     height: 300px;
-    border: 1px solid red;
 
 }
+
+.h1serviços {
+    color: white;
+}
+
+.headerserviços .h1serviços:hover {
+    color: rgb(18, 14, 240) !important;
+    backdrop-filter: blur(0px)
+}
+
+
+
 
 
 #bmenuserviços {
     position: relative;
     top: 80px;
-    left: 90%;
+    left: 1110%;
     width: 100px;
     height: 40px;
     border-radius: 5px;
-    font-size: 40px;
+    font-size: 60px;
     letter-spacing: 2px;
     background-color: transparent;
     color: white;
@@ -401,19 +416,111 @@ footer .p3:hover {
 }
 
 #bmenuserviços:hover {
+
     cursor: pointer;
 
-    transform: scale(1.8);
+    color: blue;
 
-    transition: all ease-in-out 0.5s;
+
+}
+
+
+.pserviços {
+    color: white;
+    border: 1px solid white;
+    width: 500px;
+    height: 550px;
+    font-size: 33px;
+    border-radius: 7px;
     backdrop-filter: blur(10px);
     /* Desfoca o que está atrás */
     -webkit-backdrop-filter: blur(10px);
-    letter-spacing: 2px;
+    margin-left: 50px;
+    cursor: pointer;
+    line-height: 38px;
     /* Suporte para Safari */
-    width: 120px;
-    border: none;
-    font-size: 42px;
+    font-family: "Allura", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px 0px 0px 10px;
+}
+
+.dzapsobre {
+    margin: 0px 0px 0px 110px;
+    width: 10px;
+}
+
+.imgzapsobre {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom: 75px;
+    transition: all ease-in-out 0.3s;
+}
+
+.p2sobre {
+    display: none;
+}
+
+.imgzapsobre:hover {
+    height: 40px;
+    width: 40px;
+    transform: scale(1.1);
+
+    transition: all ease-in-out 0.5s;
+}
+
+.demailsobre {
+    margin: 0px 0px 00px 140px; transition: all ease-in-out 0.3s;
+}
+
+ 
+
+
+
+.imgemailsobre {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom: 130px;
+    left: 80px; transition: all ease-in-out 0.3s;
+}
+.imgemailsobre:hover {
+height: 40px;width: 40px;
+transform: scale(1.1);
+
+    transition: all ease-in-out 0.5s;}
+
+.p3sobre {
+    display: none;
+}
+
+
+.dinstasobre {
+    margin: 0px 0px 00px 190px;
+}
+
+.imginstasobre {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom: 180px;
+    left: 150px;transition: all ease-in-out 0.3s;
+}
+
+.imginstasobre:hover{height: 40px;width: 40px;
+transform: scale(1.1);
+
+    transition: all ease-in-out 0.5s;}
+
+
+
+
+
+
+
+.p4sobre {
+    display: none;
 }
 
 
