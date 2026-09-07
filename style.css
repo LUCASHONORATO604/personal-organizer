@@ -16,7 +16,7 @@ body {
 
 
 
-/* por enquanto as opçoes contato e serviços estao suspensas     */
+
 #serviços {
     box-shadow: 5px 5px 0px 5px #000000;
     position: relative;
@@ -35,6 +35,7 @@ body {
     -webkit-backdrop-filter: blur(10px);
 }
 
+
 #contato {
     display: none;
 }
@@ -42,6 +43,9 @@ body {
 #serviços:hover {
     color: blue;
 }
+
+
+
 
 #sobre {
     padding-right: 35px;
@@ -267,7 +271,7 @@ footer .p3:hover {
 }
 
 
-
+/* A CIMA A PAGINA INICIAL*/
 
 
 
@@ -373,7 +377,7 @@ footer .p3:hover {
     text-shadow: 2px 1px 0px #000000;
 }
 
-/*pagina serviços*/
+/* A PAGINA A BAIXO E A DE SERVIÇOS*/
 .headerserviços {
     background-color: transparent;
 
@@ -387,10 +391,12 @@ footer .p3:hover {
 
 .h1serviços {
     color: white;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .headerserviços .h1serviços:hover {
-    color: rgb(18, 14, 240) !important;
+    color: rgb(34, 34, 241) !important;
     backdrop-filter: blur(0px)
 }
 
@@ -445,12 +451,12 @@ footer .p3:hover {
     padding: 5px 0px 0px 10px;
 }
 
-.dzapsobre {
+.dzapserviços {
     margin: 0px 0px 0px 110px;
     width: 10px;
 }
 
-.imgzapsobre {
+.imgzapserviços {
     height: 50px;
     width: 50px;
     position: relative;
@@ -458,11 +464,11 @@ footer .p3:hover {
     transition: all ease-in-out 0.3s;
 }
 
-.p2sobre {
+.p2serviços {
     display: none;
 }
 
-.imgzapsobre:hover {
+.imgzapserviços:hover {
     height: 40px;
     width: 40px;
     transform: scale(1.1);
@@ -470,79 +476,67 @@ footer .p3:hover {
     transition: all ease-in-out 0.5s;
 }
 
-.demailsobre {
-    margin: 0px 0px 00px 140px; transition: all ease-in-out 0.3s;
+.demailserviços {
+    margin: 0px 0px 00px 140px;
+    transition: all ease-in-out 0.3s;
 }
 
- 
+/*A CIMA A PAGINA SERVIÇOS*/
 
 
 
-.imgemailsobre {
+.imgemailserviços {
     height: 50px;
     width: 50px;
     position: relative;
     bottom: 130px;
-    left: 80px; transition: all ease-in-out 0.3s;
+    left: 80px;
+    transition: all ease-in-out 0.3s;
 }
-.imgemailsobre:hover {
-height: 40px;width: 40px;
-transform: scale(1.1);
 
-    transition: all ease-in-out 0.5s;}
+.imgemailserviços:hover {
+    height: 40px;
+    width: 40px;
+    transform: scale(1.1);
 
-.p3sobre {
+    transition: all ease-in-out 0.5s;
+}
+
+.p3serviços {
     display: none;
 }
 
 
-.dinstasobre {
+.dinstaserviços {
     margin: 0px 0px 00px 190px;
 }
 
-.imginstasobre {
+.imginstaserviços {
     height: 50px;
     width: 50px;
     position: relative;
     bottom: 180px;
-    left: 150px;transition: all ease-in-out 0.3s;
+    left: 150px;
+    transition: all ease-in-out 0.3s;
 }
 
-.imginstasobre:hover{height: 40px;width: 40px;
-transform: scale(1.1);
+.imginstaserviços:hover {
+    height: 40px;
+    width: 40px;
+    transform: scale(1.1);
 
-    transition: all ease-in-out 0.5s;}
-
-
-
-
-
+    transition: all ease-in-out 0.5s;
+}
 
 
-.p4sobre {
+
+
+
+
+
+.p4serviços {
     display: none;
 }
-
-
-
-
-
-
-/* ACIMA PAGINA SERVIÇOS */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -637,18 +631,7 @@ transform: scale(1.1);
 
 
     /* Destaque visual específico do botão de serviços */
-    #serviços {
-        box-shadow: 9px 10px 0px -1px rgba(0, 0, 0, 1);
-        border: 1px solid #2a2929;
-        letter-spacing: 5px;
-        border-radius: 3px;
-        margin-top: 50px;
-        font-size: 30px;
-        height: 50px;
-        width: 300px;
-        text-align: center;
-        padding: 5px 0px 0px 0px
-    }
+
 
     #sobre {
         margin-left: 200px;
@@ -836,17 +819,59 @@ transform: scale(1.1);
 
 
 
+    /* A PAGINA A BAIXO E A DE SERVIÇOS*/
+
+
+    .h1serviços {
+        margin-right: 15px;
+        font-size: 30px;
+    }
+
+    .pserviços {
+        font-size: 20px;
+        width: 300px;
+        margin-right: 50px;
+    }
+
+    .dzapserviços {
+        position: relative;
+        right: 30px
+    }
+
+    .demailserviços {
+        position: relative;
+        right: 150px;
+    }
+
+    .dinstaserviços {
+        position: relative;
+        right: 140px;
+    }
+
+    .imginstaserviços {
+        height: 40px;
+        width: 40px;
+        margin-top: 10px;
+    }
+
+    .imgemailserviços {
+        height: 40px;
+        width: 40px;
+        margin-top: 10px;
+    }
+
+    .imgzapserviços {
+        height: 40px;
+        width: 40px;
+    }
+
+
+
+
+
+
+
+
+
 
 }
-
-/*
-
-        <div class="dzap">
-            <a href="https://web.whatsapp.com/send?phone=(13) 99736-2054" target="_blank"><img
-                    src="./imagem/whatsapp.png" alt="fale conosco pelo whatsapp" class="imgzap"></a>
-            <p class="p2">contato:(13) 99736-2054</p>
-
-
-
-        </div> 
-        */
