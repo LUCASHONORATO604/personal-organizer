@@ -48,7 +48,7 @@ body {
 
 
 #sobre {
-    padding-right: 35px;
+    padding-right: 80px;
     backdrop-filter: blur(10px);
     /* Desfoca o que está atrás */
     -webkit-backdrop-filter: blur(10px);
@@ -56,6 +56,7 @@ body {
     border: none;
     font-size: 35px;
     letter-spacing: 4px;
+    width: 180px;
 }
 
 #sobre:hover {
@@ -635,16 +636,24 @@ footer .p3:hover {
 
     #sobre {
         margin-left: 200px;
-        margin-top: 300px;
-        width: 300px;
+        margin-top: 360px;
+        width: 230px;
         height: 50px;
         text-align: center;
         font-size: 30px;
-        border-radius: 5px;
+        border-radius: 7px;
         padding: 5px 0px 0px 0px;
         letter-spacing: 10px;
     }
 
+    #serviços {
+        width: 230px;
+        font-size: 30px;
+        letter-spacing: 5px;
+        text-align: center;
+        height: 50px;
+        padding: 10px 0px 0px 0px;
+    }
 
     main {
         height: 3500px;
@@ -781,15 +790,16 @@ footer .p3:hover {
     .mainpg2 {
         position: relative;
         right: 50px;
+        padding: 10px 250px 10px 250px;
     }
 
 
     .mainppg2 .ppg2 {
-        width: 100%;
+
         /* Ocupa a largura total disponível da tela */
-        max-width: 400px;
+        width: 100px;
         /* Evita que fique gigante em telas maiores (opcional) */
-        height: auto;
+        height: 500px;
         /* Permite que a altura cresça se o texto for longo */
         padding: 15px;
         /* Um espaçamento interno seguro para as laterais */
@@ -809,11 +819,13 @@ footer .p3:hover {
 
 
 
-    .spansobre1 {
-        height: 100px;
-        font-size: 30px;
+    .mainppg2 .ppg2 .spansobre1 {
+        height: 20px;
+        font-size: 25px;
+        background-color: blac;
         text-align: left;
         padding-left: 20px;
+        width: 200px;
     }
 
 
@@ -823,7 +835,7 @@ footer .p3:hover {
 
 
     .h1serviços {
-        margin-right: 15px;
+        margin-right: 5px;
         font-size: 30px;
     }
 
@@ -831,7 +843,7 @@ footer .p3:hover {
         font-size: 23px;
         height: 600px;
         width: 300px;
-        margin-right: 50px;
+        margin-right: 10px;
     }
 
     .dzapserviços {
@@ -860,12 +872,12 @@ footer .p3:hover {
     .imgemailserviços {
         height: 40px;
         width: 40px;
-        margin-top: 12px;
+        margin: 12px 0px 0px 85px;
     }
 
     .imgzapserviços {
         position: relative;
-        left: 40px;
+        left: 30px;
         height: 40px;
         width: 40px;
     }
@@ -874,14 +886,9 @@ footer .p3:hover {
         color: white;
         position: relative;
         left: 5px;
-        top: 1800%;
+        top: 1780%;
     }
 
-    a {
-        position: relative;
-        right: 35px
-    }
- 
 
 
 
